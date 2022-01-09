@@ -1,3 +1,3 @@
-# Página de Perfil
+# Hacer Conexiones
 
-Prueba core de perfil.
+Practica de hacer conexiones.
