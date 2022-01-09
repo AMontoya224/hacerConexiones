@@ -1,0 +1,215 @@
+body{
+    font-family: 'Balsamiq Sans';
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+/*Barra de navegación*/
+.nav{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color:rgb(41, 39, 39);
+    margin-bottom: 20px;
+}
+
+.nav-title{
+    color: white;
+}
+
+.nav-title:hover{
+    color: darkcyan;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(41, 39, 39);
+    margin-left: 30px;
+}
+
+a{
+    margin: 0px 30px;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(27, 155, 194);
+    border-color: black;
+    box-shadow: 3px 5px 0 0 black;
+    padding: 3px 5px;
+    font-size: 17px;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: rgb(14, 87, 109);;
+}
+
+/*Tarjeta de presentación*/
+.contenedor{
+    border: 2px solid rgb(160, 160, 160);
+    width: 400px;
+    margin: 10px 20px 40px 0px;
+}
+
+.header{
+    background-color: rgb(4, 160, 160);
+    height: 70px;
+}
+
+.header > img{
+    width: 80px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border: 3px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+
+.perfil:hover{
+    border: 3px solid rgb(21, 21, 133);
+}
+
+.tarjetaInformacion{
+    margin-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.iconoUbicacion {
+    width: 10px;
+    padding: 5px;
+}
+
+.iconoConfiguracion{
+    width: 15px;
+    padding: 5px;
+}
+
+.ciudad, a{
+    vertical-align: 7px;
+}
+
+.skillset{
+    margin-bottom: 5px;
+}
+
+.tituloUniversitario{
+    margin-top: 0;
+}
+
+.editlink, .view{
+    color: rgb(60, 48, 238);
+    text-decoration: underline;
+    position: relative;
+    right: 30px;
+}
+
+/*Ventanas adicionales*/
+.contenedor-2{
+    border: 2px solid rgb(160, 160, 160);
+    width: 220px;
+    margin: 10px 0px 40px 20px;
+}
+
+#requests{
+    height: 180px;
+}
+
+.header-2{
+    background-color: rgb(43, 44, 44);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.dos, .cinco{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(187, 183, 183);
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    color: white;
+}
+
+.avatar-1, .logo, .logo-1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.logo{
+    position: relative;
+    left: 13px;
+}
+
+.logo:hover{
+    border: 3px solid rgb(16, 87, 31);
+}
+.logo-1:hover{
+    border: 3px solid rgb(126, 35, 23);
+}
+
+.user-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cinco{
+    width: 55px;
+}
+
+.box{
+    padding: 20px 10px 5px 10px;
+}
+
+.espacio{
+    width: 70px;
+}
+
+.view{
+    position: relative;
+    top: 8px;
+    right: 11px;
+    margin: 0px;
+    padding: 8px 110px 5px 10px;
+    border: 2px solid rgb(160, 160, 160);
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+}
+
+#date{
+    color: grey;
+    font-size: 18px;
+    position: relative;
+    bottom: 5px;
+}
+
+.education{
+    margin-left: 10px;
+}

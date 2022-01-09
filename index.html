@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Profile
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Island+Moments&display=swap" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="nav">
+            <h1 class="nav-title">
+                Profile
+            </h1>
+            <ul class="nav-links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="active">My Profile</a>
+                </li>
+                <li>
+                    <a href="#">Find Connections</a>
+                </li>
+                <li>
+                    <button class="btn" id="sign" onclick="cambiar(this)">Sign Out</button>
+                </li>
+            </ul>
+        </div>
+        <div class="all">
+            <div class="all-1">
+                <div class="contenedor">
+                    <div class="header">
+                        <img src="./images/perfil.jpg" id="fotoperfil" alt="Imagen default de usuario" class="perfil"/>
+                    </div>
+                    <div class="tarjetaInformacion">
+                        <h2 class="nombre" id="nombre">
+                            Andres Montoya
+                        </h2>
+                        <div class="ubicacion">
+                            <img class="iconoUbicacion" src="./icons/map-marker.png" alt="Simbolo de ubicacion"/> 
+                            <span class="ciudad" id="ciudad">
+                                Peru
+                            </span>
+                        </div>
+                        <div class="skills">
+                            <p class="skillset" id="skill">
+                                Electronic Engineer | Developer
+                            </p>
+                            <p class="tituloUniversitario" id="tituloUniversitario">
+                                Engineer of software and hardware!
+                            </p>
+                        </div>
+                        <div class="edit">
+                            <img class="iconoConfiguracion" src="./icons/gear.png" src="Icono de configuracion"/> 
+                            <a href="#" class="editlink" onclick="edit()">
+                                edit profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor" id="edu">
+                    <div class="header-2">
+                        <h4>
+                            Education
+                        </h4>
+                    </div>
+                    <div class="box-2">
+                        <h3 class="education">
+                            Coding Dojo - Full Stack Bootcamp
+                        </h3>
+                        <p class="education" id="date">
+                            Dec 2021 - Mar 2022
+                        </p>
+                        <p class="education">
+                            Triple black belt in Python, MERN, and C# & C++
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="all-2">
+                <div class="contenedor-2" id="requests">
+                    <div class="header-2">
+                        <div class="dos" id="contador1">
+                            2
+                        </div>
+                        <h4>
+                            Connection Requests
+                        </h4>
+                    </div>
+                    <div class="box">
+                        <div class="user-1" id="user1">
+                            <img class="avatar-1" src="./images/todd-s.jpg" alt="foto todd"/> 
+                            <p>
+                                Todd E
+                            </p>
+                            <img onclick="remover1(), aumentar()" class="logo" src="./icons/accept-circle.png" alt="accept logo"/>
+                            <img onclick="remover1()" class="logo-1" src="./icons/close-circle.png" alt="close logo"/>
+                        </div>
+                        <div class="user-1" id="user2">
+                            <img class="avatar-1" src="./images/phil-s.jpg" alt="foto phill"/>
+                            <p>
+                                Phill K
+                            </p>
+                            <img onclick="remover2(), aumentar()" class="logo" src="./icons/accept-circle.png" alt="accept logo"/>
+                            <img onclick="remover2()" class="logo-1" src="./icons/close-circle.png" alt="close logo"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-2" id="your">
+                    <div class="header-2">
+                        <div class="cinco" id="contador2">
+                            418
+                        </div>
+                        <h4>
+                            Your Connections
+                        </h4>
+                    </div>
+                    <div class="box">
+                        <div class="user-1">
+                            <img class="avatar-1" src="./images/adrien-s.jpg" alt="foto adrian"/> 
+                            <p>
+                                Adrien D
+                            </p>
+                            <div class="espacio"></div>
+                        </div>
+                        <div class="user-1">
+                            <img class="avatar-1" src="./images/anne-s.jpg" alt="foto anne"/>
+                            <p>
+                                Anne J
+                            </p>
+                            <div class="espacio"></div>
+                        </div>
+                        <div class="user-1">
+                            <img class="avatar-1" src="./images/alayne-s.jpg" alt="foto alyne"/> 
+                            <p>
+                                Alayne T
+                            </p>
+                            <div class="espacio"></div>
+                        </div>
+                        <div class="user-1">
+                            <img class="avatar-1" src="./images/arry-s.jpg" alt="foto arry"/>
+                            <p>
+                                Arry Y
+                            </p>
+                            <div class="espacio"></div>
+                        </div>
+                        <div class="user-1">
+                            <img class="avatar-1" src="./images/jane-m.jpg" alt="foto jane"/>
+                            <p>
+                                Jane M
+                            </p>
+                            <div class="espacio"></div>
+                        </div>
+                        <a class="view" href="#">
+                            View More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script> 
+    </body>
+</html>
